@@ -1,0 +1,90 @@
+/* defualts */
+
+body{
+    height: 100vh;
+    max-width:auto;
+    background-image:url(../assets/workbg3.jpg);
+    background-position: center;
+    background-size: 100%;
+    
+  
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.header #p1{
+    display: flex;
+    margin-top: 20vh;
+    margin-bottom: 0;
+    font-size: 120px;
+    color:rgb(36, 241, 248);
+    font-family: monospace;
+    font-weight:bold;
+}
+.header #p2{
+    font-family: monospace;
+    display: flex;
+    font-size: 70px;
+    color: rgb(253, 253, 253);
+    
+}
+
+.header #p3{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+.header .container img{   
+    margin-top: 9vh;
+    height: 50vh;
+}
+/* end header */
+
+/* work  */
+
+
+#section .section.p-1 .row.mb-3.pt-3 .col-2.text-center.bg-primary.text-light p{
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding-top:15px;
+}
+/* end work */
+
+/* contacts*/
+
+#sectionbg{
+    height:auto;
+    width:100vw;
+    background-color: black;
+    background-position: center;
+    background-size: 100%;
+   
+}
+#sectionbg .container .row.text-start #contact.mt-2{
+    font-size: 18px;
+    font-weight: lighter;
+    color: white;
+}
+#sectionbg .container .row.text-start #contact{
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    font-family: monospace;
+}
+#sectionbg .container li{
+    list-style: none;
+    margin-right:2em;
+    margin-left: 3em;
+}
+#sectionbg .container .row.text-start a#contact{
+    text-decoration: none;
+}
+
+#sectionbg .container .row.text-start a#contact:hover{
+    text-decoration: none;
+    color: rgba(115, 230, 250, 0.686);
+}
+
+/* end contacts */
